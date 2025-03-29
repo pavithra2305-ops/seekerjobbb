@@ -1,0 +1,157 @@
+ /* General Styling */
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* Light Gray Background */
+    color: #333333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #0A192F, #0056b3); /* Deep Blue Gradient */
+    padding: 20px;
+    text-align: center;
+    color: #333333;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    padding: 10px;
+    background: #002855;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #2ECC71; /* Emerald Green */
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #2ECC71;
+    color: #002855;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(45deg, #0056b3, #007BFF);
+    color: #fffbfb ;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings Styling */
+h1, h2, h3 {
+    color: #9a6d3a; /* Emerald Green */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+/* Job Listings */
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.job-card {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    border: 2px solid #007BFF; /* Blue Border */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* CTA Button */
+.btn {
+    background: linear-gradient(45deg, #009688, #2ECC71);
+    color: #FFFFFF;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #2ECC71, #009688);
+    transform: scale(1.05);
+}
+
+/* Search Box */
+.search-box {
+    width: 80%;
+    padding: 12px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #007BFF;
+    background: #FFFFFF;
+    color: #333333;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.search-box:focus {
+    border-color: #004080;
+    box-shadow: 0px 0px 8px rgba(0, 91, 187, 0.5);
+}
+
+/* Section Styling */
+section {
+    padding: 30px;
+    background: #76af98;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Alternating Section Colors */
+section:nth-child(even) {
+    background: #76af98;
+}
+
+/* Links Inside Sections */
+a {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1E3A5F;
+}
