@@ -1,6 +1,6 @@
  💼 JobSeeker Web Application
 📌 Project Overview
-<img src="" width="600">
+<img src="https://github.com/pavithra2305-ops/seekerjobbb/blob/687d20ab429f0e6b6c8072cd7d10674758232430/Guide%20wire.png" width="600">
 
 JobSeeker is a web platform designed to help job seekers find suitable jobs easily and help recruiters post job openings. The platform connects job seekers and employers in a simple and efficient way.
 
